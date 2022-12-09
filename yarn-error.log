@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mohsin Ali\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\OpenJDK\jdk-11.0.11.9-hotspot;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\jdk-11.0.11.9-hotspot;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\jdk-11.0.11.9-hotspot;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\WireGuard\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Users\Mohsin Ali\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohsin Ali\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\OpenJDK\jdk-11.0.11.9-hotspot;C:\Program Files\android-sdk-windows\platform-tools;C:\Users\Mohsin Ali\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.17.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  {
+    "name": "dating-app",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "^0.1.11",
+      "@react-navigation/bottom-tabs": "^6.5.0",
+      "@react-navigation/native": "^6.1.0",
+      "@react-navigation/stack": "^6.3.8",
+      "expo": "~47.0.8",
+      "expo-font": "^11.0.1",
+      "expo-splash-screen": "^0.17.5",
+      "expo-status-bar": "~1.4.2",
+      "react": "18.1.0",
+      "react-native": "0.70.5",
+      "react-native-gesture-handler": "^2.8.0",
+      "react-native-keyboard-aware-scroll-view": "^0.9.5",
+      "react-native-reanimated": "^2.13.0",
+      "react-native-safe-area-context": "^4.4.1",
+      "react-native-screens": "^3.18.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

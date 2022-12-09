@@ -1,0 +1,26 @@
+{
+  "cli": {
+    "version": ">= 2.1.0"
+  },
+  "build": {
+    "release": {
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "image": "macos-monterey-12.4-xcode-13.4"
+      }
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
+  }
+}
